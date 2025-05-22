@@ -1,0 +1,140 @@
+p {
+	font-size: 20px;
+	color: white;
+}
+
+h1 {
+	font-size: 40px;
+	color: darkred;
+	display: flex;
+	justify-content: center;
+}
+
+h2 {
+	font-size: 30px;
+	color: darkred;
+	display: flex;
+	justify-content: center;
+}
+
+h3 {
+	font-size: 30px;
+	color: #004d4d;
+	display: flex;
+	justify-content: center;
+}
+
+a {
+	font-size: 30px;
+	color: #004d4d;
+}
+
+ol {
+	font-size: 20px;
+	color: white;
+}
+
+li {
+	font-size: 15px;
+	color: white;
+}
+
+
+body {
+	background-image: url("photos/tortuga-piraty-karibskogo-moria-2.jpg");
+	background-position: center;
+	background-attachment: fixed;
+	background-size: 100%;
+}
+
+ol {
+  display: flex;
+  justify-content: space-between;
+  margin: 0,5;
+  width: 100%;
+  list-style-position: inside;
+}
+
+ol, li { 
+	margin-right: 5px;
+	font-size: 15px;
+	color: white;
+	padding-bottom: 10px;
+}
+
+.pics {
+	display: flex;
+  justify-content: space-around;
+  margin: 0,5;
+  width: 100%;
+  padding-left: 30px;
+  padding-bottom: 50px;
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding: 40px;
+	max-width: 2000px;
+	margin: auto;
+	gap: 60;
+}
+
+.text-block {
+	flex: 1;
+	max-width: 66%;
+}
+
+.Starring {
+	flex: 0 0 300px;
+	padding-top: 100px;
+	display: flex;
+	flex-direction: column;
+	gap: 10;
+}
+
+.container1 {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	padding: 40px;
+	max-width: 2000px;
+	margin: auto;
+	gap: 60;
+}
+
+.text-block1 {
+	flex: 1;
+	max-width: 66%;
+}
+
+.loginwrap {
+	flex: 0 0 250px;
+	display: flex;
+	flex-direction: column;
+	gap: 10;
+	color: white;
+}
+
+.names {
+	display: flex;
+	justify-content: center;
+	gap: 70px;
+	padding-bottom: 15px;
+	padding-left: 100px;
+	padding-top: 60px;
+}
+
+.pics2 {
+	display: flex;
+  justify-content: center;
+  gap: 66px;
+  margin: 0;
+  width: 100%;
+  padding-bottom: 40px;
+  
+}
+
+
+
